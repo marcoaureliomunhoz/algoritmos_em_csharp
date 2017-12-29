@@ -53,3 +53,8 @@ Podemos obter a sequência de Fibonacci através da recursividade e para isso po
 - Caso trivial: F(1) ou F(2) = 1
 - Caso geral: F(n) = F(n-1) + F(n-2)
 
+**Algoritmos de Busca**
+- **Busca Sequencial**: para localizar o valor procurado a estratégia é percorrer a estrutura de dados até encontrar ou até passar pelo último elemento.
+- **Busca Binária**: para localizar o valor procurado a estratégia é dentro de uma janela de busca olhar para o elemento central, se o elemento central é o valor procurado significa que encontramos, se o valor procurado não é o elemento central significa que o valor procurado pode estar à esquerda ou à direita do elemento central e um desses lados (à esquerda ou à direita) passa a ser a nova janela de busca, onde o processo é executado recursivamente até encontrar o elemento ou até não exista mais janela de busca.
+
+> Em se tratando de complexidade computacional (esforço computacional), se considerarmos o pior caso para um vetor com **n** elementos a busca sequencial realizará **n** comparações até concluir que o elemento procurado não existe na estrutura e a busca binária realizará **log2(n)+1** comparações até concluir que o elemento não existe na estrutura. Por isso que a busca binária é mais eficiente, pois no pior caso e na ampla maioria dos casos  **log2(n)+1 < n** e apenas em casos triviais (poucos elementos) existe a possibilidade da busca sequencial se igualar a busca binária (**log2(n)+1 <= n**).

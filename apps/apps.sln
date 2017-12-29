@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recursividade_Fatorial_1", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recursividade_Fibonacci_1", "Recursividade_Fibonacci_1\Recursividade_Fibonacci_1.csproj", "{9BF3DC06-9C58-4EFA-B11E-386405DBEFF7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PesquisaBinaria1", "PesquisaBinaria1\PesquisaBinaria1.csproj", "{CA59245D-7A42-495C-83C1-115A106AF29B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{9BF3DC06-9C58-4EFA-B11E-386405DBEFF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BF3DC06-9C58-4EFA-B11E-386405DBEFF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BF3DC06-9C58-4EFA-B11E-386405DBEFF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA59245D-7A42-495C-83C1-115A106AF29B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA59245D-7A42-495C-83C1-115A106AF29B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA59245D-7A42-495C-83C1-115A106AF29B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA59245D-7A42-495C-83C1-115A106AF29B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
