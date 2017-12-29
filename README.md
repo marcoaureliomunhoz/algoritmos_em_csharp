@@ -7,7 +7,7 @@
 - **Quick Sort**: Utiliza a estratégia de divisão e conquista ou partição. A ideia é levar o pivo até a sua posição ideal de modo que os elementos à sua esquerda serão sempre menores e os elementos à sua direita serão sempre maiores. Depois disso o algoritmo é aplicado recursivamente aos elementos à esquerda do pivo e aos elementos à direita do pivo.
 - **Merge Sort**: Também utiliza a estratégia de divisão e conquista ou partição. A ideia é executar passos de divisões e ordenação na estrutura. Uma diferença em relação ao QuickSort é que no MergeSort se utiliza de estruturas auxiliares, enquanto que no QuickSort não precisa.
 
-**Recursividade**
+**Recursividade**  
 É uma estratégia para a solução de problemas que podem ser divididos em problemas menores de **mesma natureza** até que se chegue num **caso trivial**. A recursividade é resolvida através do **empilhamento** de funções. Se não tiver um caso trivial esse empilhamento gera um **estouro de pilha**. Ao chegar no caso trivial é feito o **desempilhamento**. Após um desempilhamento a função entra no **bloco/caso geral** que por sua vez deve-se aproveitar do resultado obtido após o desempilhamento ou acionar a recursividade caso o problema possa ser dividido em problema menor de mesma natureza.
 
 > A recursividade é base do paradigma funcional presente em linguagens funcionais como **Lisp**, **Haskell**, **Miranda**, **F#**, **Scheme** e **Erland**. 
@@ -40,3 +40,14 @@ funcao resolve(problema) {
 - Exemplo1: cálculo do fatorial de um número _n!_
     - Caso trivial: fatorial de 1 ou 0 = 1
     - Caso geral: fatorial de n>1 = n*(n-1)!
+
+**Sequência/Série de Fibonacci**  
+É uma sequência numérica baseada na perfeição de fenômenos da natureza que apresentam proporcionalidade de **1,6**. A constante **1,6** já era usada pelos egípcios como medida base para se obter e aplicar a **proporção ideal** em suas construções. Aplicar a constante **1,6** exige a aplicação da operação de multiplicação, e esta não é tão trivial como a operação de soma. Fibonacci, por volta de 1200, demonstrou uma estratégia que simplifica a aplicação da constante por meio da operação soma. Com a estratégia de Fibonacci fica muito mais fácil determinar qual é a proporção próxima da ideal para uma dada medida.
+
+Ao aplicar a estratégia de Fibonacci obtemos uma sequência numérica, que é então chamada de sequência de Fibonacci. Repare na sequência que 2=1+1, 3=2+1, 5=3+2, 8=5+3. Além disso, 5=3\*1.6, 8=5\*1.6, 13=8\*1.6. Com base nesta sequência podemos dizer que a proporção ideal para a construção de objetos baseados na medida 5 é 3 e 8, ou seja, se você possui um quadro de 5m como decoração de sua sala, não seria adequado a utilização de quadros com 1m, pois de acordo com a proporção ideal a medida adequada seria 3m.
+- 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, ... 
+
+Podemos obter a sequência de Fibonacci através da recursividade e para isso podemos considerar que:
+- Caso trivial: F(1) ou F(2) = 1
+- Caso geral: F(n) = F(n-1) + F(n-2)
+
