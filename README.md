@@ -44,8 +44,10 @@ funcao resolve(problema) {
 **Sequência/Série de Fibonacci**  
 É uma sequência numérica baseada na perfeição de fenômenos da natureza que apresentam proporcionalidade de **1,6**. A constante **1,6** já era usada pelos egípcios como medida base para se obter e aplicar a **proporção ideal** em suas construções. Aplicar a constante **1,6** exige a aplicação da operação de multiplicação, e esta não é tão trivial como a operação de soma. Fibonacci, por volta de 1200, demonstrou uma estratégia que simplifica a aplicação da constante por meio da operação soma. Com a estratégia de Fibonacci fica muito mais fácil determinar qual é a proporção próxima da ideal para uma dada medida.
 
-Ao aplicar a estratégia de Fibonacci obtemos uma sequência numérica, que é então chamada de sequência de Fibonacci. Repare na sequência que 2=1+1, 3=2+1, 5=3+2, 8=5+3. Além disso, 5=3\*1.6, 8=5\*1.6, 13=8\*1.6. Com base nesta sequência podemos dizer que a proporção ideal para a construção de objetos baseados na medida 5 é 3 e 8, ou seja, se você possui um quadro de 5m como decoração de sua sala, não seria adequado a utilização de quadros com 1m, pois de acordo com a proporção ideal a medida adequada seria 3m.
+Ao aplicar a estratégia de Fibonacci obtemos uma sequência numérica, que é então chamada de sequência de Fibonacci. Repare na sequência que 2=1+1, 3=2+1, 5=3+2, 8=5+3. Além disso, 5=3\*1.6, 8=5\*1.6, 13=8\*1.6. 
 - 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, ... 
+
+> Com base nesta sequência podemos dizer que a proporção ideal para a construção de objetos baseados na medida 5 é 3 e 8, ou seja, se você possui um quadro de 5m como decoração de sua sala, não seria adequado a utilização de quadros com 1m, pois de acordo com a proporção ideal a medida adequada seria 3m.
 
 Podemos obter a sequência de Fibonacci através da recursividade e para isso podemos considerar que:
 - Caso trivial: F(1) ou F(2) = 1
