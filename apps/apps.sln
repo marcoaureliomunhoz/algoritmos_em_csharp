@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickSort1", "QuickSort1\Qu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeSort1", "MergeSort1\MergeSort1.csproj", "{6F6EF795-9AA1-47F8-8B58-260BF96FE531}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recursividade_Fatorial_1", "Recursividade_Fatorial_1\Recursividade_Fatorial_1.csproj", "{D5024B6B-22ED-4F96-88F6-9E1F13090322}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{6F6EF795-9AA1-47F8-8B58-260BF96FE531}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F6EF795-9AA1-47F8-8B58-260BF96FE531}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F6EF795-9AA1-47F8-8B58-260BF96FE531}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5024B6B-22ED-4F96-88F6-9E1F13090322}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5024B6B-22ED-4F96-88F6-9E1F13090322}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5024B6B-22ED-4F96-88F6-9E1F13090322}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5024B6B-22ED-4F96-88F6-9E1F13090322}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

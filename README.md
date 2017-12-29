@@ -6,3 +6,37 @@
 - **Insertion Sort**: A ideia é executar n-1 passos de ordenação, partindo da posição i=2. Para cada passo o vetor é percorrido da posição i-1 até encontrar a melhor posição para inserir o elemento de posição i=2.
 - **Quick Sort**: Utiliza a estratégia de divisão e conquista ou partição. A ideia é levar o pivo até a sua posição ideal de modo que os elementos à sua esquerda serão sempre menores e os elementos à sua direita serão sempre maiores. Depois disso o algoritmo é aplicado recursivamente aos elementos à esquerda do pivo e aos elementos à direita do pivo.
 - **Merge Sort**: Também utiliza a estratégia de divisão e conquista ou partição. A ideia é executar passos de divisões e ordenação na estrutura. Uma diferença em relação ao QuickSort é que no MergeSort se utiliza de estruturas auxiliares, enquanto que no QuickSort não precisa.
+
+**Recursividade**
+É uma estratégia para a solução de problemas que podem ser divididos em problemas menores de **mesma natureza** até que se chegue num **caso trivial**. A recursividade é resolvida através do **empilhamento** de funções. Se não tiver um caso trivial esse empilhamento gera um **estouro de pilha**. Ao chegar no caso trivial é feito o **desempilhamento**. Após um desempilhamento a função entra no **bloco/caso geral** que por sua vez deve-se aproveitar do resultado obtido após o desempilhamento ou acionar a recursividade caso o problema possa ser dividido em problema menor de mesma natureza.
+
+> A recursividade é base do paradigma funcional presente em linguagens funcionais como **Lisp**, **Haskell**, **Miranda**, **F#**, **Scheme** e **Erland**. 
+
+- Exemplos de aplicações da recursividade:
+    - Quick-sort (ordenação rápida).
+    - Merge-sort.
+    - Busca binária.
+    - Listas encadeadas.
+    - Busca em árvores binárias e n-árias.
+    - Fatorial de um número **n!**.
+    - Sequência de Fibonacci.
+
+```csharp
+//Esquema geral de uma função recursiva
+
+funcao resolve(problema) {
+    //caso trivial
+    se problema for trivial
+        retorna resultado trivial
+    
+    //caso geral onde é possível dividir o problema em problema menor de mesma natureza
+    resultado = resolve(problema menor de mesma natureza)
+
+    //agora fica mais fácil aproveitar o resultado obtido da solução do subproblema
+    o que se pode fazer com o resultado da solução do subproblema?
+}
+```
+
+- Exemplo1: cálculo do fatorial de um número _n!_
+    - Caso trivial: fatorial de 1 ou 0 = 1
+    - Caso geral: fatorial de n>1 = n*(n-1)!
